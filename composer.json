@@ -1,7 +1,7 @@
 {
-    "name": "mews/purifier",
+    "name": "larahook/purifier",
     "type": "package",
-    "description": "Laravel 5/6/7/8/9/10 HtmlPurifier Package",
+    "description": "Laravel 5/6/7/8/9/10/12/13 HtmlPurifier Package",
     "keywords": [
         "Laravel HtmlPurifier",
         "Laravel Purifier",
@@ -11,7 +11,7 @@
         "security",
         "xss"
     ],
-    "homepage": "https://github.com/mewebstudio/purifier",
+    "homepage": "https://github.com/Mishanki/Purifier",
     "license": "MIT",
     "authors": [
         {
@@ -19,13 +19,19 @@
             "email": "me@mewebstudio.com",
             "homepage": "https://github.com/mewebstudio",
             "role": "Developer"
+        },
+        {
+            "name": "Mikhail Mishankin",
+            "email": "mishanki@yandex.ru",
+            "homepage": "https://github.com/Mishanki",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "illuminate/config": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-        "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
-        "illuminate/filesystem": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/config": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/filesystem": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
         "ezyang/htmlpurifier": "^4.16.0"
     },
     "require-dev": {
@@ -39,7 +45,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Mews\\Purifier\\": "src/"
+            "Larahook\\Purifier\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -47,13 +53,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Mews\\Tests\\Purifier\\": "tests/"
+            "Larahook\\Tests\\Purifier\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mews\\Purifier\\PurifierServiceProvider"
+                "Larahook\\Purifier\\PurifierServiceProvider"
             ],
             "aliases": {
                 "Purifier": "Mews\\Purifier\\Facades\\Purifier"

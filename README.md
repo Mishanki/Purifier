@@ -17,7 +17,7 @@ A simple [Laravel](http://www.laravel.com/) service provider for easily using [H
 
 Require this package with composer:
 ```
-composer require mews/purifier
+composer require larahook/purifier
 ```
 
 The service provider will be auto-discovered. You do not need to add the provider anywhere. 
@@ -26,7 +26,7 @@ The service provider will be auto-discovered. You do not need to add the provide
 
 Require this package with composer:
 ```
-composer require mews/purifier
+composer require larahook/purifier
 ```
 
 Find the `providers` key in `config/app.php` and register the HTMLPurifier Service Provider.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mews\Purifier\Casts;
+namespace Larahook\Purifier\Casts;
 
 trait WithConfig
 {

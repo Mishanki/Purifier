@@ -1,9 +1,9 @@
 <?php
 
-namespace Mews\Tests\Purifier;
+namespace Larahook\Tests\Purifier;
 
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use Mews\Purifier\Purifier;
+use Larahook\Purifier\Purifier;
 
 class ServiceProviderTest extends AbstractTestCase
 {

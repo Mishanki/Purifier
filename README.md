@@ -34,7 +34,7 @@ Find the `providers` key in `config/app.php` and register the HTMLPurifier Servi
 ```php
     'providers' => [
         // ...
-        Mews\Purifier\PurifierServiceProvider::class,
+        Larahook\Purifier\PurifierServiceProvider::class,
     ]
 ```
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mews\Tests\Purifier;
+namespace Larahook\Tests\Purifier;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use Mews\Purifier\PurifierServiceProvider;
+use Larahook\Purifier\PurifierServiceProvider;
 
 abstract class AbstractTestCase extends AbstractPackageTestCase
 {

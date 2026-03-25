@@ -1,6 +1,6 @@
 <?php
 
-namespace Mews\Purifier;
+namespace Larahook\Purifier;
 
 /**
  * Laravel 5 HTMLPurifier package
